@@ -1,0 +1,11 @@
+{
+  "cfg1": {
+    "connectionLimit": 10,
+    "multipleStatements": true,
+    "checkDuplicate": false,
+    "host": "localhost",
+    "user": "root",
+    "password": "",
+    "database": "asisdemo"
+  }
+}

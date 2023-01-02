@@ -1,0 +1,224 @@
+.q-header {
+  background: linear-gradient(145deg,#1976d2 11%,#0f477e 75%);
+}
+.dataPR {  /* max height is important */
+  .q-table__middle {
+    max-height: 600px;
+  }
+  .q-table__top,
+  .q-table__bottom,
+  thead tr:first-child {
+    background: linear-gradient(to left, #00ffcc 3%, #ffffff 97%);
+  }
+
+  thead tr th {
+    position: sticky;
+    z-index: 1;
+  }
+  thead tr:first-child th {
+    top: 0;
+  }
+  /* this is when the loading indicator appears */
+  &.q-table--loading thead tr:last-child th {    /* height of all previous header rows */
+    top: 48px;
+  }
+}
+.detPR {  /* max height is important */
+  .q-table__middle {
+    max-height: 600px;
+  }
+  .q-table__top,
+  .q-table__bottom,
+  thead tr:first-child th {    /* bg color is important for th; just specify one */
+    background-color: #ff8c66;
+  }
+  thead tr th {
+    position: sticky;
+    z-index: 1;
+  }
+  thead tr:first-child th {
+    top: 0;
+  }
+  /* this is when the loading indicator appears */
+  &.q-table--loading thead tr:last-child th {    /* height of all previous header rows */
+    top: 48px;
+  }
+}
+.my-sticky-header-table {  /* max height is important */
+  .q-table__middle {
+    max-height: 300px;
+  }
+  .q-table__top,
+  .q-table__bottom,
+  thead tr:first-child th {    /* bg color is important for th; just specify one */
+    background-color: #1a2422;
+  }
+  thead tr th {
+    position: sticky;
+    z-index: 1;
+  }
+  thead tr:first-child th {
+    top: 0;
+  }
+  /* this is when the loading indicator appears */
+  &.q-table--loading thead tr:last-child th {    /* height of all previous header rows */
+    top: 48px;
+  }
+}
+.dataTrx {  /* max height is important */
+  .q-table__middle {
+    max-height: 600px;
+  }
+  .q-table__top,
+  .q-table__bottom,
+  thead tr {
+    background: linear-gradient(145deg,#1976d2 11%,#0f477e 75%);
+    /* thead tr:first-child th */
+    /* bg color is important for th; just specify one */
+    color: #fff;
+  }
+  thead tr th {
+    position: sticky;
+    z-index: 1;
+  }
+  thead tr:first-child th {
+    top: 0;
+  }
+  .q-table__bottom,
+  .q-table__top {
+    .q-table__control,
+    .q-field__native,
+    .q-field__prefix,
+    .q-field__suffix,
+    .q-field__input,
+    button {
+      color: #00ea66 !important;
+    }
+  }
+  .q-table__top,
+  .q-table__bottom {
+    .q-table__control,
+    .q-field__native,
+    .q-field__prefix,
+    .q-field__suffix,
+    .q-field__input {
+      color: #fff !important;
+    }
+  }
+  tfoot tr {
+    color: #fff;
+  }  /* this is when the loading indicator appears */
+  &.q-table--loading thead tr:last-child th {    /* height of all previous header rows */
+    top: 48px;
+  }
+}
+table.pvtTable thead tr th,
+table.pvtTable tbody tr td{
+  color: #1a2422 !important;
+}
+.dataTrx2 {  /* max height is important */
+  .q-table__middle {
+    max-height: 600px;
+  }
+  .q-table__top,
+  .q-table__bottom,
+  thead tr {
+    background: linear-gradient(145deg,#1976d2 11%,#0f477e 75%);
+    /* thead tr:first-child th */
+    /* bg color is important for th; just specify one */
+    color: #fff;
+  }
+  thead tr th {
+    position: sticky;
+    z-index: 1;
+  }
+  thead tr:first-child th {
+    top: 0;
+  }
+  thead tr:nth-child(2) th {
+    position: sticky;
+    top: 40px;
+  }
+  .q-table__bottom,
+  .q-table__top {
+    .q-table__control,
+    .q-field__native,
+    .q-field__prefix,
+    .q-field__suffix,
+    .q-field__input,
+    button {
+      color: #00ea66 !important;
+    }
+  }
+  .q-table__top,
+  .q-table__bottom {
+    .q-table__control,
+    .q-field__native,
+    .q-field__prefix,
+    .q-field__suffix,
+    .q-field__input {
+      color: #fff !important;
+    }
+  }
+  tfoot tr {
+    color: #fff;
+  }  /* this is when the loading indicator appears */
+  &.q-table--loading thead tr:last-child th {    /* height of all previous header rows */
+    top: 48px;
+  }
+}
+.detTrx {  /* max height is important */
+  /* .q-table__middle
+    max-height: 300px */
+
+  .q-table__top,
+  .q-table__bottom,
+  thead tr:first-child {
+    background: linear-gradient(to left, #ffcc99 15%, #ffffff 97%);
+    color: grey;
+  }
+  thead tr th {
+    position: sticky;
+    z-index: 1;
+  }
+  thead tr:first-child th {
+    top: 0;
+  }
+  /* this is when the loading indicator appears */
+  &.q-table--loading thead tr:last-child th {    /* height of all previous header rows */
+    top: 48px;
+  }
+}
+.q-drawer {
+  background: rgba(17, 17, 17, 0.747);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+}
+table.pvtTable thead,
+table.pvtTable tbody tr {
+  background: linear-gradient(145deg, #1976d2 11%, #0f477e 75%);
+}
+.pvtAttr {
+  background: #96e8ba !important;
+}
+.pvtRowLabel {
+  background: #19c6ad;
+}
+.pvtRenderers {
+  min-width: 200px;
+  width: 20vw;
+}
+.pvtCols,
+.pvtRows,
+.pvtVals {
+  background: linear-gradient(0deg, rgba(255,255,255,1) 20%, rgba(45,240,253,0.9514006286108193) 80%) !important;
+}
+table.pvtTable {
+  width: 100%;
+}
+@media print {
+  @page {
+    size: auto;
+    margin: 0mm;
+  }
+};
