@@ -1,0 +1,10 @@
+{
+  "cfg1": {    
+    "multipleStatements": true,
+    "checkDuplicate": false,
+    "host": "localhost",
+    "user": "root",
+    "password": "rakandani157",
+    "database": "asisDemo"
+  }
+}

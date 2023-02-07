@@ -1,0 +1,7 @@
+POST http://asis.amazink.id:3400/api/login
+content-type: application/json
+
+{
+    "username": "prast@aston.com",
+    "password": "salesAston"
+}
