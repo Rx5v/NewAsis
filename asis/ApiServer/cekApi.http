@@ -1,0 +1,28 @@
+POST https://wa01.ocatelkom.co.id/api/v2/push/message
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwiYXBwbGljYXRpb24iOiI2MjdjODIwZmYzODQwMzAwMmM3ZWRiODMiLCJpYXQiOjE1MTYyMzkwMjJ9.i2ZY0ZZCmHzSoMv0SCGV4_L7XmNm0aBnXR6DWfTbpj0vFb1TpurnuYQUMPdeO16tQFI_5bnF1sMexdE9Sd6-Y7q2OLaTP2dcFq1_Vi5NYdoix_cNkj9kYcejJLb6nzSteT28kp769Gowf8IqATQw-5KOLFBZgcPQY3ZMcPhtfVDQoKJoRardURwAJ6BnFRp4Ld3QSw67Fa0xXuhT4Mnojk9CrcV4Mr1d-dbgY5_hqJg00UyLuSDf4q_thEG5NXMSKmiEIfAl1vOFep_zViQM1NJSO5ewLGMohDayMMpnPi53oNVIGMGyPrLNZ5ZNTE1HAbnS31axIbytfG3wjv3DzA
+content-type: application/json
+
+{
+    "phone_number": "null",
+    "message": {
+        "type": "template",
+        "template": {
+        "template_code_id": "9b1224e2_66de_4745_a510_7eea39533133:asis_service_confirm",
+        "payload": [
+            {
+            "position": "body",
+            "parameters": [
+                {
+                "type": "text",
+                "text": "x.nomorServis"
+                },
+                {
+                "type": "text",
+                "text": "x.namaPartner"
+                }
+            ]
+            }
+        ]
+        }
+    }
+}

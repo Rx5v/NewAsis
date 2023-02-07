@@ -1,0 +1,70 @@
+{
+  "name": "sistem",
+  "version": "0.2.1",
+  "description": "Sistem Mini ERP",
+  "productName": "ASIS New",
+  "cordovaId": "org.cordova.quasar.app",
+  "capacitorId": "",
+  "author": "Trimo Isti <trimo.acacia@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "@marketconnect/vue-pivot-table": "^0.2.1",
+    "@quasar/extras": "^1.9.10",
+    "@quasar/icongenie": "^2.3.3",
+    "@vue/composition-api": "^0.5.0",
+    "axios": "^0.18.1",
+    "body-parser": "^1.19.0",
+    "chart.js": "^2.9.4",
+    "cookie-parser": "^1.4.5",
+    "core-js": "^2.6.11",
+    "cors": "^2.8.5",
+    "exceljs": "^3.10.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "file-saver": "^2.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^2.5.5",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "node-fetch": "^2.6.7",
+    "node-turn": "0.0.4",
+    "peer": "^0.5.3",
+    "peerjs": "^1.3.1",
+    "quasar": "^1.14.3",
+    "sharp": "^0.26.2",
+    "socketio": "^1.0.0",
+    "socketio-jwt": "^4.6.2",
+    "spdy": "^4.0.2",
+    "vue-avatar-cropper": "^1.0.9",
+    "vue-chartjs": "^3.5.1",
+    "vue-cropper": "^0.5.5",
+    "vue-i18n": "^8.22.1",
+    "vue-pivottable": "^0.3.64",
+    "vue-socket.io": "^3.0.10"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.9.6",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.1.0",
+    "devtron": "^1.4.0",
+    "electron": "^7.3.3",
+    "electron-debug": "^3.1.0",
+    "electron-devtools-installer": "^2.2.4",
+    "eslint": "^5.10.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.0.0"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
